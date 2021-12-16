@@ -1,15 +1,61 @@
-h1 {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+header {
+  background-image: url('/Users/robertbarron/Visual Studio Code Projects/Codecademy/Cheatsheet/resources/images/gradienta-QWutu2BRpOs-unsplash.jpg');
+  background-size: cover;
+  color: white;
+  z-index: 12;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 {
   font-size: 50px;
 }
 
+nav {
+  font-size: 20px;
+  letter-spacing: 5px;
+  word-spacing: 50px;
+}
+
 h2 {
+  font-size: 50px;
+}
+
+h3 {
   font-size: 25px;
 }
 
-h1,
-  h2 {
+nav, 
+  header h1,
+    h2,
+      h3 {
     text-align: center;
     font-family: arial, sans-serif;
+}
+
+.sub-title {
+  position: relative;
+  margin-top: 150px;
 }
 
 table {
