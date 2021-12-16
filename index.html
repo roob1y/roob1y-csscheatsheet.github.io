@@ -1,9 +1,273 @@
-<html>
- 
-<body>
-  <h1>Robert Barron</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/Users/robertbarron/Visual Studio Code Projects/Codecademy/Cheatsheet/styles.css">
+        <title>CSS Cheatsheet</title>
+    </head>
+    <body>
+        <h1>CSS Reference Properties</h1>
+        <br>
+        <div id="background-table">
+        <h2>Background Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Background</th>
+                    <th>Description</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='back-row-1'>background-image</td>
+                    <td class='back-row-2'>The background-image CSS property sets one or more background images on an element</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-image" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='back-row-1'>background-position</td>
+                    <td class='back-row-2'>sets the initial position for each background image. The position is relative to the position layer set by background-origin</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-position" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='back-row-1'>background-size</td>
+                    <td class='back-row-2'>sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-size" target="_blank">MDN doc</a></td>
+
+                </tr>
+                <tr>
+                    <td class='back-row-1'>background-repeat</td>
+                    <td class='back-row-2'>sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='back-row-1'>background-attachment</td>
+                    <td class='back-row-2'>sets whether a background image's position is fixed within the viewport, or scrolls with its containing block</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='back-row-1'>background-origin</td>
+                    <td class='back-row-2'>sets the background's origin: from the border start, inside the border, or inside the padding</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='back-row-1'>background-clip</td>
+                    <td class='back-row-2'>sets whether an element's background extends underneath its border box, padding box, or content box</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='back-row-1'>background-color</td>
+                    <td class='back-row-2'>sets the background color of an element</td>
+                    <td class='back-row-3'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color" target="_blank">MDN doc</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h2>Border</h2>
+        <div id="border-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Border</th>
+                    <th>Add</th>
+                    <th>Description</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='border-row-1'>border</td>
+                    <td class='border-row-2'>border-width <br> border-style <br> border-color</td>
+                    <td class='border-row-3'>sets an element's border. It sets the values of border-width, border-style, and border-color</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-width</td>
+                    <td class='border-row-2'>thin <br> medium <br> thick <br> length</td>
+                    <td class='border-row-3'>sets the width of an element's border</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-width" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-style</td>
+                    <td class='border-row-2'>none <br> hidden <br> dotted <br> dashed <br> solid <br> double <br> groove <br> ridge <br> inset <br> outset</td>
+                    <td class='border-row-3'>sets the line style for all four sides of an element's border</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-color</td>
+                    <td class='border-row-2'>'a <strong>color...'</strong> blue, green etc.</td>
+                    <td class='border-row-3'>sets the color of an element's border</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-color" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-'...'(left, right, top, bottom)</td>
+                    <td class='border-row-2'>border-style <br> border-color <br> border-'...'-width</td>
+                    <td class='border-row-3'>sets an element's border. It sets the values of border-width, border-style, or border-color on the specific side</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>box-shadow</td>
+                    <td class='border-row-2'>inset <br>|length, length, length, length color|<br> none </td>
+                    <td class='border-row-3'>adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-collapse</td>
+                    <td class='border-row-2'>collapse <br> seperate </td>
+                    <td class='border-row-3'>sets whether cells inside a <span class='tag code'>&lt;table&gt;</span> have shared or separate borders</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-image</td>
+                    <td class='border-row-2'>image <br> [number / % border-width stretch <br> repeat <br> round ] <br> none</td>
+                    <td class='border-row-3'>draws an image around a given element. It replaces the element's regular border</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-image" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-'...'-radius</td>
+                    <td class='border-row-2'>top-right <br> bottom-right <br> top-left <br> bottom-left</td>
+                    <td class='border-row-3'>rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='border-row-1'>border-'...'-radius <br> (bottom-right, <br> top-left, <br> bottom-left, <br> top-right)</td>
+                    <td class='border-row-2'>length <br> %</td>
+                    <td class='border-row-3'>rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners</td>
+                    <td class='border-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">MDN doc</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h2>Box Model</h2>
+        <div id="box-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Box</th>
+                    <th>Add</th>
+                    <th>Description</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='box-row-1'>float</td>
+                    <td class='box-row-2'>left <br> right <br> none</td>
+                    <td class='box-row-3'>places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow (in contrast to absolute positioning)</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>height</td>
+                    <td class='box-row-2'>auto <br> length <br> %</td>
+                    <td class='box-row-3'>specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>max-height</td>
+                    <td class='box-row-2'>none <br> length <br> %</td>
+                    <td class='box-row-3'>sets the maximum height of an element. It prevents the used value of the height property from becoming larger than the value specified for max-height</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/max-height" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>max-width</td>
+                    <td class='box-row-2'>none <br> length <br> %</td>
+                    <td class='box-row-3'>sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/max-width" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>min-height</td>
+                    <td class='box-row-2'>none <br> length <br> %</td>
+                    <td class='box-row-3'>sets the minimum height of an element. It prevents the used value of the height property from becoming smaller than the value specified for min-height</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/min-height" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>width</td>
+                    <td class='box-row-2'>auto <br> length <br> %</td>
+                    <td class='box-row-3'>sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>margin</td>
+                    <td class='box-row-2'>margin-top <br> margin-bottom <br> margin-left <br> margin-right</td>
+                    <td class='box-row-3'>sets the margin area on all four sides of an element</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>
+                        <li>margin-top</li>
+                        <li>margin-bottom</li>
+                        <li>margin-right</li>
+                        <li>margin-left</li>  
+                    </td>
+                    <td class='box-row-2'>auto <br> length <br> %</td>
+                    <td class='box-row-3'>sets the margin area on the corresponding side of an element. A positive value places it farther from its neighbors, while a negative value places it closer</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>padding</td>
+                    <td class='box-row-2'>padding-top <br> padding-bottom <br> padding-left <br> padding-right</td>
+                    <td class='box-row-3'>sets the padding area on all four sides of an element at once</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>padding-top <br> padding-bottom <br> padding-right <br> padding-left
+                    </td>
+                    <td class='box-row-2'>length | %</td>
+                    <td class='box-row-3'>sets the padding area on the corresponding side of an element. A positive value places it farther from its neighbors, while a negative value places it closer</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>display</td>
+                    <td class='box-row-2'>inline <br> block <br> inline-block <br> list-item <br> run-in <br> compact <br> table <br> inline-table <br> table-row-group <br> table-header-group <br> table-footer-group <br> table-row <br> table-column-group <br> table-column <br> table-cell <br> table-caption <br> ruby <br> ruby-base <br> ruby-text <br> ruby-base-group <br> rub-text-group <br> inline-flex <br> inline-grid <br> contents</td>
+                    <td class='box-row-3'>sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>overflow</td>
+                    <td class='box-row-2'>visible <br> hidden <br> scroll <br> auto <br> no-display <br> no-content <br> overflow-x <br> overflow-y</td>
+                    <td class='box-row-3'>sets the desired behavior for an element's overflow — i.e. when an element's content is too big to fit in its block formatting context — in both directions</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>overflow-x</td>
+                    <td class='box-row-2'>visible <br> hidden <br> scroll <br> auto <br> no-display <br> no-content</td>
+                    <td class='box-row-3'>sets what shows when content overflows a block-level element's left and right edges. This may be nothing, a scroll bar, or the overflow content</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>rotation</td>
+                    <td class='box-row-2'>angle</td>
+                    <td class='box-row-3'>represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <span class='tag code'>&lt;gradient&gt;</span>s and in some transform functions</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/angle" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>visibility</td>
+                    <td class='box-row-2'>visible <br> hidden <br> collapse</td>
+                    <td class='box-row-3'>shows or hides an element without changing the layout of a document. The property can also hide rows or columns in a <span class='tag code'>&lt;table&gt;</span></td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/visibility" target="_blank">MDN doc</a></td>
+                </tr>
+                <tr>
+                    <td class='box-row-1'>clear</td>
+                    <td class='box-row-2'>left <br> right <br> both <br> none</td>
+                    <td class='box-row-3'>sets whether an element must be moved below (cleared) floating elements that precede it. The clear property applies to floating and non-floating elements</td>
+                    <td class='box-row-4'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clear" target="_blank">MDN doc</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+    <br>
+    <footer>
+        <h4>made by <em>Robert James Barron</em></h4>
+    </footer>
 </html>
