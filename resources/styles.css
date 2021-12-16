@@ -8,7 +8,7 @@ body, html {
 }
 
 header {
-  background-image: url('/Users/robertbarron/Visual Studio Code Projects/Codecademy/Cheatsheet/resources/images/gradienta-QWutu2BRpOs-unsplash.jpg');
+  background-image: url('https://roob1y.github.io/roob1y-csscheatsheet.github.io/gradienta-QWutu2BRpOs-unsplash.jpg');
   background-size: cover;
   color: white;
   z-index: 12;
